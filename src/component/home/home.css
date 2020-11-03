@@ -1,0 +1,92 @@
+.mainContainer {
+    margin: 26px;
+    background: #f6f6f6;
+}
+
+.flex {
+    display: flex;
+    column-gap: 12px;
+}
+
+.graphContiner {
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.14), 0 0 0.0625rem 0 rgba(0, 0, 0, 0.12), 0 0 0.0625rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.graphContiner1 {
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.14), 0 0 0.0625rem 0 rgba(0, 0, 0, 0.12), 0 0 0.0625rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.tableContainer {
+    background-color: #ffffff;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.14), 0 0 0.0625rem 0 rgba(0, 0, 0, 0.12), 0 0 0.0625rem 0 rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.sectionDivider {
+    border: 0.5px solid #DDD;
+    margin: 0px 0 10px;
+}
+
+.margin {
+    margin: 25px;
+}
+
+.text {
+    padding: 9px;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: 0.75px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ccc;
+    position: relative;
+    /* top: 130px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table 
+tr 
+td {
+    height: 50px;
+}
+
+td:nth-child(2){
+    padding-left: 10px;
+}
+
+table tr:nth-child(odd){
+    background-color: #f1f1f1;
+}
+
+table tr{
+    border-bottom: 1px solid #ddd;
+}
+
+.light-grey {
+    background-color: #f1f1f1;
+}
+
+.heading {
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.tableHeading {
+    font-size: 16px;
+    letter-spacing: 0.75px;
+    line-height: 1.54;
+    font-weight: 400;
+    padding: 14px;
+}
+
+.alignItems {
+    padding-left: 16px;
+}
